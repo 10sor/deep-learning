@@ -1,5 +1,7 @@
 A series of colab / jupyter notebooks for demonstrating deep neural network architecture concepts.
 
+![kaggle rankings](https://github.com/10sor/deep-learning/blob/master/kaggle-positions.png)
+
 Dependencies : Anaconda Tensorflow Jupyter numpy scikit-image keras scikit-learn Pandas Hidden Layer (experimental)
 
 Tensorboard --logdir=./{directory}
@@ -52,7 +54,7 @@ Tensorflow 2.0 on google colab
 
 ## reinforcement-value-policy iteration:
 	A simulation of value and policy iteration.
-	Qk+1(s,a)	= ∑s' P(s'|s,a) (R(s,a,s')+ γVk(s')) <br/>
-	for k ≥ 0 <br/>
-	Vk(s)	= maxa Qk(s,a)  for k>0. <br/>
+	Qk+1(s,a)	= ∑s' P(s'|s,a) (R(s,a,s')+ γVk(s'))
+	for k ≥ 0
+	Vk(s)	= maxa Qk(s,a)  for k>0
 
