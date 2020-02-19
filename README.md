@@ -40,9 +40,10 @@ voice-recognition/ : Predict speech out of 12 labels, up down left right...
 
 subvocal/ : Binary speech classification from EMG muscle readings.  Subvocalization predicts speech without the sound / voice signature using spectrogram translations.
 
-lastname-country-identification/ : Predict the country of origin of a persons lastname with LSTM.
+lastname-country-identification/: Predict the country of origin of a persons lastname with LSTM.
 
 reinforcement-value-policy iteration : A simulation of value and policy iteration.
-Qk+1(s,a)	= ∑s' P(s'|s,a) (R(s,a,s')+ γVk(s'))  for k ≥ 0
-Vk(s)	= maxa Qk(s,a)  for k>0.
+Qk+1(s,a)	= ∑s' P(s'|s,a) (R(s,a,s')+ γVk(s')) <br/>
+for k ≥ 0 <br/>
+Vk(s)	= maxa Qk(s,a)  for k>0. <br/>
 
